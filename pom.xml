@@ -46,6 +46,7 @@
                     <systemPropertyVariables>
                         <!--suppress UnresolvedMavenProperty -->
                         <browser>${Browser}</browser>
+                        <client>${Client}</client>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
