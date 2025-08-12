@@ -13,7 +13,8 @@ public class UITest {
     @Parameters({"Browser", "Client"})
     @Test
     public void startBrowser(String browserName, String clientName) {
-        System.out.println("Parameter name is : " + browserName);
+        System.out.println("Browser Parameter name is : " + browserName);
+        System.out.println("Client Parameter name is : " + browserName);
         WebDriver driver = null;
         switch (browserName) {
             case "CHROME":
