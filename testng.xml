@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="SauceDemo Allure Reporting">
+<suite name="Maven Jenkins Github WebHook">
     <test name="FIREFOX Execution">
         <parameter name="browser" value="FIREFOX"/>
         <classes>
